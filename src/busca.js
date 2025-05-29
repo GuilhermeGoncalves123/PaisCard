@@ -1,3 +1,4 @@
+// Componente funcional Busca que recebe uma função 'onBuscar' como prop
 const Busca = ({ onBuscar }) => {
   return (
     <div className="busca">
@@ -10,4 +11,4 @@ const Busca = ({ onBuscar }) => {
   );
 };
 
-export default Busca;
+export default Busca; // Exporta o componente para ser usado em outros arquivos
